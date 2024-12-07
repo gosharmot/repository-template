@@ -2,7 +2,7 @@ name: Create Tag from branch name
 
 on:
   pull_request:
-    branches: ['releases/**']
+    branches: ['release/**']
     types: [closed]
 
 jobs:
